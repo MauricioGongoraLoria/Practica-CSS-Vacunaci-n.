@@ -1,0 +1,482 @@
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+
+   .contenedor{
+    display: flex;
+    justify-content: right;
+    height: 23.125ex;
+    width: 260ex;
+}
+  
+.navtab{
+    display: flex;
+    justify-content: left;
+    height: 23.125ex;
+    width: 130ex;
+    background: linear-gradient(to right, white,rgb(198, 245, 253));
+ 
+}
+
+#vacunacion{
+    position:absolute;
+    top:3ex;
+    left:11ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6ex;
+    font-weight: 600;
+    color: rgb(54, 54, 160);
+}
+
+#database{
+    position:absolute;
+    top:5ex;
+    left:50ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color:gray;
+}
+
+#education{
+    position:absolute;
+    top:5ex;
+    left:66ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color:gray;
+}
+
+#news{
+    position:absolute;
+    top:5ex;
+    left:80ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color:gray;
+}
+
+#regulation{
+    position:absolute;
+    top:5ex;
+    left:89ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color:gray;
+}
+
+#booster{
+    position:absolute;
+    top:4ex;
+    left:104ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #493de9;
+    border-radius: 6px;
+    padding: 1ex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+   
+
+.seccion{
+    display: flex;
+    justify-content: left;
+}
+
+
+#banner1{
+    position:absolute;
+    height:205ex;
+    width: 150ex;
+    top:5ex;
+}
+
+#banner2{
+    position:relative;
+    left: 140ex;
+    height:142ex;
+    width: 120ex;
+}
+
+#table{
+    top:140ex;
+    left:50ex;
+    position:absolute;
+
+}
+
+.tabla{
+    padding: 5ex;
+    font-size: 30ex;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    color: rgb(80, 78, 78);
+    
+}
+
+
+#ubi{
+    height:10ex;
+    width: 7ex;
+}
+
+#calendar{
+    height:8ex;
+    width: 5ex;
+}
+
+#vac{
+    height:8ex;
+    width: 5ex;
+}
+
+.rectangulo{
+    position:absolute;
+    background-color:rgba(150, 216, 224, 0.473);
+    border: 3px, solid rgb(238, 232, 232);
+    width: 1420px;
+    height: 200px;
+    top:150ex;
+    left:40ex;
+    border-collapse: separate;
+    border-spacing: 5;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(194, 191, 191);
+}
+
+#cita{
+    position:absolute;
+    top:72ex;
+    left:90ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #493de9;
+    border-radius: 6px;
+    padding: 2ex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 23ex;
+    text-align: center;
+}
+
+.logos{
+    position: relative;
+    top:10ex;
+    display:inline-flex;
+    height: 23.125ex;
+    width: 260ex;
+    left: 40ex;
+}
+
+.marcas{
+    height:20ex;
+    width: 50ex;
+}
+
+.seccion2{
+    display: flex;
+    justify-content: left;
+    left: 0%;
+}
+
+
+#banner3{
+    position:relative;
+    top:10ex;
+    height:64ex;
+    width: 96ex;
+    left:30ex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#banner4{
+    position:absolute;
+    top:185ex;
+    left:140ex;
+    height:100ex;
+    width: 120ex;
+}
+
+.seccion3{
+    top:7ex;
+    position:relative;
+    display: flex;
+    justify-content: left;
+    left: 0%;
+}
+
+.cuadros{
+    position:relative;
+    background-color:white;
+    border: 3px, solid rgb(238, 232, 232);
+    width: 420px;
+    height: 370px;
+    border-collapse: separate;
+    border-spacing: 5;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(194, 191, 191);
+}
+
+#c1{
+    
+    top:10ex;
+    left:5ex;
+}
+
+#c2{
+    top:10ex;
+    left:7.5ex;
+}
+
+
+#c3{
+    top:10ex;
+    left:10ex;
+}
+
+#c4{
+    top:10ex;
+    left:12.5ex;
+}
+
+
+#enfermera2{
+    top:30ex;
+    position:relative;
+    width: 1120px;
+    height: 1300px;
+}
+
+#before{
+    left:100ex;
+    top:300ex;
+    position:absolute;
+    width: 1100px;
+    height: 950px;
+}
+
+#varios{
+    left:145ex;
+    top:410ex;
+    position:absolute;
+    width: 800px;
+    height: 750px;
+}
+
+
+#seccion5{
+    top:400ex;
+    position:absolute;
+    display: flex;
+    justify-content: left;
+    left: 0%;
+   }
+
+   #contact{
+    left:5ex;
+    top:500ex;
+    position:absolute;
+    width: 1200px;
+    height: 750px;
+}
+
+.seccion6{
+    top:80ex;
+    position:relative;
+    display: flex;
+    justify-content: left;
+    left: 0%;
+}
+
+
+
+#c5{
+    
+    top:10ex;
+    left:5ex;
+}
+
+#c6{
+    top:10ex;
+    left:7.5ex;
+}
+
+
+#c7{
+    position: absolute;
+    left:5ex;
+    top:65ex;
+}
+
+#c8{
+    position: absolute;
+    top:65ex;
+    left:67ex;
+}
+
+
+#c9{
+    position: relative;
+    top:15ex;
+    left:30ex;
+   
+}
+
+#call{
+    position: relative;
+    top:0ex;
+    left:5ex;
+    width: 300px;
+    height: 350px;
+  
+}
+
+.contact{
+    position:absolute;
+    top:17ex;
+    left:8ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #493de9;
+    border-radius: 6px;
+    padding: 1ex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.contact:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+
+
+#chat{
+    position: relative;
+    top:3ex;
+    left:7ex;
+    width: 300px;
+    height: 350px;
+  
+}
+
+  #video{
+    position: relative;
+    top:3ex;
+    left:5ex;
+    width: 300px;
+    height: 350px;
+  
+}
+
+.contenedor2{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    top:730ex;
+    height: 100ex;
+    width: 260ex;
+}
+  
+.navtab2{
+    display: flex;
+    justify-content: left;
+    height: 100ex;
+    width: 130ex;
+    background: linear-gradient(to right, white,rgb(198, 245, 253));
+}
+
+
+.data{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 400;
+    color:gray;
+}
+
+#data{
+    position:absolute;
+    top:12ex;
+    left:5ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.encabezadoF{
+    position:absolute;
+    top:5ex;
+    left:50ex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4ex;
+    font-weight: 600;
+    color:rgb(46, 45, 45);
+}
+
+
+#company{
+    position:absolute;
+    top:5ex;
+    left:70ex;  
+
+}
+
+#support{
+    position:absolute;
+    top:5ex;
+    left:90ex;  
+
+}
+
+#aabout{
+
+    position:absolute;
+    top:10ex;
+    left:50ex;  
+}
+
+#ccompany{
+    position:relative;
+    top:10ex;
+    left:11ex;  
+}
+
+#ssuport{
+    position:relative;
+    top:10ex;
+    left:17ex;  
+}
+
+
+#derechos{
+    position:absolute;
+    top:40ex;
+    left:5ex;  
+
+
+}
+
+#terminos{
+    position:absolute;
+    top:40ex;
+    left:80ex;  
+
+
+}
